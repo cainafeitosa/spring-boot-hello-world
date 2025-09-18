@@ -15,9 +15,12 @@ jobs:
       - name: Step 1
         run: |
             echo "::group::My title"
-            echo "step1: Inside group title"
-
-      - name: Step 2
-        run: |
-            echo "step2: Inside group title"
+            echo "Inside group title"
+            echo "Inside group title"
+            echo "Inside group title"
+            echo "Inside group title"
+            echo "Inside group title"
+            echo "Inside group title"
+            echo "Inside group title"
+            echo "Inside group title"
             echo "::endgroup::"

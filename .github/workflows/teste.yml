@@ -14,10 +14,11 @@ jobs:
     steps:
       - name: Step 1
         run: |
+
             echo "::group::My title"
             echo "Inside group title"
             echo "Inside group title"
-            echo "Inside group title"
+            ls -l
             echo "Inside group title"
             echo "Inside group title"
             echo "Inside group title"
